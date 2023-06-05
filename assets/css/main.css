@@ -119,7 +119,7 @@ a {
 
 a:hover {
 	border-bottom-color: transparent;
-	color: black !important;
+	color: #FFCC99 !important;
 	text-decoration: none;
 }
 
