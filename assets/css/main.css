@@ -2606,7 +2606,7 @@ input[type="button"]:disabled,
 	position: fixed;
 	text-align: right;
 	top: 0;
-	width: 35%;
+	width: 22%;
 }
 
 #header>* {
@@ -2684,10 +2684,10 @@ input[type="button"]:disabled,
 /* Main */
 
 #main {
-	margin-left: 35%;
+	margin-left: 22%;
 	max-width: 54em;
 	padding: 8em 4em 4em 4em;
-	width: calc(100% - 35%);
+	width: calc(100% - 22%);
 }
 
 #main>section {
@@ -3000,7 +3000,7 @@ body.is-touch .poptrox-popup .closer {
 
 	#header {
 		padding: 6em 3em 3em 3em;
-		width: 30%;
+		width: 18%;
 	}
 
 	#header h1 {
@@ -3028,10 +3028,10 @@ body.is-touch .poptrox-popup .closer {
 	/* Main */
 
 	#main {
-		margin-left: 30%;
+		margin-left: 18%;
 		max-width: none;
 		padding: 6em 3em 3em 3em;
-		width: calc(100% - 30%);
+		width: calc(100% - 18%);
 	}
 
 }
@@ -3059,7 +3059,7 @@ body.is-touch .poptrox-popup .closer {
 		background-position: top left, center center;
 		background-size: auto, cover;
 		left: auto;
-		padding: 6em 4em;
+		padding: 4em 2em;
 		position: relative;
 		text-align: center;
 		top: auto;
@@ -3112,7 +3112,7 @@ body.is-touch .poptrox-popup .closer {
 
 	#main {
 		margin: 0;
-		padding: 6em 4em;
+		padding: 4em 2em;
 		width: 100%;
 	}
 
@@ -3159,7 +3159,7 @@ body.is-touch .poptrox-popup .closer {
 	/* Header */
 
 	#header {
-		padding: 2.25em 1.5em;
+		padding: 2em 1em;
 	}
 
 	#header h1 {
@@ -3175,7 +3175,7 @@ body.is-touch .poptrox-popup .closer {
 	/* Main */
 
 	#main {
-		padding: 2.25em 1.5em 0.25em 1.5em;
+		padding: 2em 1em 0.25em 1em;
 	}
 
 	#main>section {
@@ -3203,7 +3203,7 @@ body.is-touch .poptrox-popup .closer {
 	/* Header */
 
 	#header {
-		padding: 4.5em 1.5em;
+		padding: 2em 0.5em;
 	}
 
 	#header h1 br {
@@ -3287,9 +3287,28 @@ ul.tl li .item-detail {
 ul.tl li .timestamp {
 	color: black;
 	position: absolute;
-	width: 180px;
-	left: -218px;
+	width: 80px;
+	left: -90px;
 	top: 0.5px;
 	text-align: right;
-	font-size: 18px;
+	font-size: 16px;
+}
+
+@media screen and (max-width: 900px) {
+	ul.tl li .timestamp {
+		position: static;
+		display: block;
+		width: auto;
+		text-align: left;
+		margin-bottom: 4px;
+	}
+	.history-tl-container {
+		width: 98% !important;
+		min-width: 0 !important;
+	}
+}
+
+.history-tl-container {
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
