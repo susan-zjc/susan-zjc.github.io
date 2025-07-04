@@ -374,4 +374,24 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.copyright-footer {
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  border-top: 1px solid #e0e0e0;
+  color: #666;
+  font-size: 0.8rem;
+}
+
+.copyright-footer p {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .copyright-footer {
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+  }
 } 
